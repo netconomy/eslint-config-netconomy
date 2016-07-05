@@ -1,6 +1,6 @@
-# ESLint Configuration use by Netconomy
+# ESLint Configuration used by Netconomy
 
-This is the ESLint base configuration use by Netconomy for our projects. We
+This is the ESLint base configuration used by Netconomy for our projects. We
 provide the following presets:
 
 * `eslint-config-netconomy/react`
@@ -14,7 +14,7 @@ configuration, simple add following line to your `.eslintrc`:
 "extends": "netconomy/react"
 ```
 
-You can find more information about this feature of ESLint in the
+You can find more information about this ESLint feature in the
 [official documentation](http://eslint.org/docs/developer-guide/shareable-configs).
 
 
