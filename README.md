@@ -17,6 +17,13 @@ configuration, simple add following line to your `.eslintrc`:
 You can find more information about this ESLint feature in the
 [official documentation](http://eslint.org/docs/developer-guide/shareable-configs).
 
+**Note:** If you want to use the React base configuration, you will also have to
+install the eslint-plugin-react package:
+
+```
+npm install --save-dev eslint-react-plugin
+```
+
 
 ## Version pinning
 
