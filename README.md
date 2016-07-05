@@ -18,6 +18,26 @@ You can find more information about this ESLint feature in the
 [official documentation](http://eslint.org/docs/developer-guide/shareable-configs).
 
 
+## Version pinning
+
+If you want to pin this package and its version to the ESLint version you're
+using within your project, you can also install both directly within your
+project ...
+
+```
+npm install --save-dev eslint
+npm install --save-dev eslint-config-netconomy
+```
+
+and set the base configuration like this within your `.eslintrc`:
+
+```
+{
+    "extends": "./node_modules/eslint-config-netconomy/react.js"
+}
+```
+
+
 ## Test cases
 
 In the `tests` folder you can find a list of files that will be tested against
