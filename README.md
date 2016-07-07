@@ -65,4 +65,20 @@ like this:
 //? {"eqeqeq": 2}
 ```
 
-To run all the tests, simply execute `npm test`.
+To run all the tests, execute `npm install && npm test`.
+
+
+## Local development and testing
+
+During development you can clone this repo and make that version of
+eslint-config-netconomy globally available using `npm link` from within the root
+folder. After that you can refer to the configuration using something like ...
+
+```
+{
+    "extends": "netconomy/react"
+}
+```
+
+
+... within your `.eslintrc` as described above.
