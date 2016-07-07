@@ -74,7 +74,8 @@ FS.readdir('tests', (err, files) => {
         const fullPath = Path.join('tests', f);
         const preset = f.split("-")[0];
         const engine = new CLIEngine({
-            configFile: `.eslint-${preset}`
+            configFile: `.eslint-${preset}`,
+            useEslintrc: false
         });
         const report = engine.executeOnFiles([fullPath]);
 
