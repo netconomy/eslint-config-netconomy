@@ -12,5 +12,9 @@ module.exports = {
         ecmaFeatures: {
             "jsx": true
         }
+    },
+    rules: {
+        "react/display-name": 0,
+        "react/no-danger": 0
     }
 };
