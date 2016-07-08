@@ -1,14 +1,14 @@
 # ESLint Configuration used by Netconomy
 
-This is the ESLint base configuration used by Netconomy for our projects. We
-provide the following presets:
+This is the ESLint base configuration used by Netconomy for our
+projects. Included are the following presets:
 
 * `eslint-config-netconomy/react`
 * `eslint-config-netconomy/jquery`
 * `eslint-config-netconomy/nodejs`
 
-To use for example the React base configuration within your own ESLint
-configuration, simple add following line to your `.eslintrc`:
+To use, for example, the React preset in your own ESLint configuration, simple
+add following line to your `.eslintrc`:
 
 ```
 "extends": "netconomy/react"
@@ -18,15 +18,16 @@ You can find more information about this ESLint feature in the
 [official documentation](http://eslint.org/docs/developer-guide/shareable-configs).
 
 **Note:** If you want to use the React base configuration, you will also have to
-install the eslint-plugin-react package:
+install the
+[eslint-plugin-react](https://www.npmjs.com/package/eslint-plugin-react) package:
 
 ```
 npm install --save-dev eslint-react-plugin
 ```
 
-We try to keep this as much up-to-date as possible with major ESLint
-releases. For details on how our version numbers relate to ESLint's please take
-a look at the CHANGELOG.md.
+We try to keep this as up-to-date as possible with major ESLint releases. For
+details on how our version numbers relate to ESLint's please take a look at the
+CHANGELOG.md.
 
 
 ## Version pinning
