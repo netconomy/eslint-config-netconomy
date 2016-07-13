@@ -15,6 +15,10 @@
     "styleguide"
   ],
   "homepage": "https://github.com/netconomy/eslint-config-netconomy",
+  "bugs": {
+    "url": "https://github.com/netconomy/eslint-config-netconomy/issues"
+  },
+  "repository": "netconomy/eslint-config-netconomy",
   "devDependencies": {
     "async": "2.0.0-rc.6",
     "chalk": "1.1.3",

@@ -9,7 +9,12 @@ ESLint 3.x.x, "301" will be first breaking release still targeting ESLint
 errors which were previously only warnings or less.
 
 
-## 300.0.0 (unreleased)
+## 300.0.1 (unreleased)
+
+* Fixes some minor issues within the package.json and the README.
+
+
+## 300.0.0 (2016-07-08)
 
 Welcome to the initial release. As the number indicates, this one is targeted at
 ESLint 3.x.x.

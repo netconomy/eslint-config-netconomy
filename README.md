@@ -27,7 +27,7 @@ npm install --save-dev eslint-react-plugin
 
 We try to keep this as up-to-date as possible with major ESLint releases. For
 details on how our version numbers relate to ESLint's please take a look at the
-CHANGELOG.md.
+[CHANGELOG.md](https://github.com/netconomy/eslint-config-netconomy/blob/master/CHANGELOG.md).
 
 
 ## Version pinning
