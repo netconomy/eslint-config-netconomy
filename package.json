@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-netconomy",
-  "version": "300.0.0",
+  "version": "300.0.1",
   "description": "ESLint base-configurations used by Netconomy",
   "main": "index.js",
   "scripts": {
