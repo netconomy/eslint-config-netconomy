@@ -1,7 +1,7 @@
-import React from 'react/addons';
+import React from 'react';
 
-export default React.createClass({
+export default class Component extends React.Component {
     render() {
         return <div>Hello world</div>;
     }
-});
+};
