@@ -22,7 +22,7 @@ install the
 [eslint-plugin-react](https://www.npmjs.com/package/eslint-plugin-react) package:
 
 ```
-npm install --save-dev eslint-react-plugin
+npm install --save-dev eslint-plugin-react
 ```
 
 We try to keep this as up-to-date as possible with major ESLint releases. For
