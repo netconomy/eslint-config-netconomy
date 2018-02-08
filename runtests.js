@@ -94,8 +94,8 @@ FS.readdir('tests', (err, files) => {
                 });
                 return;
             }
-            console.log(`${Chalk.bold.green('OK') } Detected 
-                ${report.errorCount} error(s) and ${report.warningCount} warning(s).`);
+            console.log(`${Chalk.bold.green('OK') } Detected ` +
+                `${report.errorCount} error(s) and ${report.warningCount} warning(s).`);
             next();
         });
     }, (err) => {
