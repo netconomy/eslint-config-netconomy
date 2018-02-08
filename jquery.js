@@ -3,5 +3,5 @@ module.exports = {
         browser: true,
         jquery: true
     },
-    extends: "./index.js"
+    extends: './index.js'
 };

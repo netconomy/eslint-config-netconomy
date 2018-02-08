@@ -1,5 +1,8 @@
 module.exports = {
-    extends: "./index.js",
+    extends: './index.js',
+    globals: {
+        'Promise': true
+    },
     env: {
         node: true
     },

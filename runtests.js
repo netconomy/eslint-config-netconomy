@@ -2,7 +2,7 @@ const FS = require('fs');
 const Path = require('path');
 const Async = require('async');
 const Util = require('util');
-const CLIEngine = require("eslint").CLIEngine;
+const CLIEngine = require('eslint').CLIEngine;
 const Chalk = require('chalk');
 
 function die(err) {
@@ -72,7 +72,7 @@ FS.readdir('tests', (err, files) => {
 
     Async.mapSeries(files.filter(f => f.endsWith('.js')), (f, next) => {
         const fullPath = Path.join('tests', f);
-        const preset = f.split("-")[0];
+        const preset = f.split('-')[0];
         const engine = new CLIEngine({
             configFile: `.eslint-${preset}`,
             useEslintrc: false
@@ -94,8 +94,8 @@ FS.readdir('tests', (err, files) => {
                 });
                 return;
             }
-            console.log(Chalk.bold.green('OK') +
-                        ` Detected ${report.errorCount} error(s) and ${report.warningCount} warning(s).`);
+            console.log(`${Chalk.bold.green('OK') } Detected 
+                ${report.errorCount} error(s) and ${report.warningCount} warning(s).`);
             next();
         });
     }, (err) => {
@@ -104,7 +104,7 @@ FS.readdir('tests', (err, files) => {
             if (typeof err['errors']) {
                 console.log(Chalk.bold(err.test));
                 err.errors.forEach(e => {
-                    console.log(Chalk.bold.red('x') + ' ' + e);
+                    console.log(`${Chalk.bold.red('x') } ${ e}`);
                 });
             } else {
                 die(Util.inspect(err, {
